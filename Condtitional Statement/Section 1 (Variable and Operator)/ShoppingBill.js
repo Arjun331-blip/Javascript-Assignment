@@ -1,0 +1,10 @@
+let productPrice = 80;
+let quantity = 1;
+let originalPrice = `${productPrice}`;
+let discountAmmount = originalPrice/10;
+let finalBill = originalPrice - discountAmmount;
+console.log("product price : " + productPrice);
+console.log("quantity : " + quantity);
+console.log("Original Price : " + originalPrice);
+console.log("Discount Ammount : " + discountAmmount);
+console.log("final Bill : " + finalBill);
